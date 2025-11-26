@@ -1,115 +1,120 @@
-# Tech Entrepreneurship Curriculum  
-## Core Focus: Product Engineering & Incubation Hub
+## **Module 1–2: JavaScript Fundamentals & Problem Solving**
+
+**Goal:** Master JS basics and foundational problem-solving.
+
+* **Core JS Concepts:** Variables, data types, operators, loops, conditionals, functions, recursion, scope, closures
+* **ES6+ Features:** Arrow functions, template literals, destructuring, modules, default parameters
+* **Programming Practices:** Debugging, console, error handling
+* **Basic Algorithms:** Sorting (bubble, insertion, selection), searching (linear, binary)
+* **Data Structures:** Arrays, stacks, queues
+* **Git & GitHub:** Basic version control, commits, branching, pull requests
+* **Mini-Project:** CLI-based JS utility (e.g., calculator, to-do list)
 
 ---
 
-## 1. Orientation Layer — Install the Builder Mindset (Week 1)
-- Remove assumptions and noise.  
-- Train in first-principles product thinking.  
-- Introduce incubation rules: speed, iteration, measurable output.  
-- Principle: shipped products > ideas.
+## **Module 3–4: Advanced JavaScript & DSA**
+
+**Goal:** Deepen JS knowledge and algorithmic thinking.
+
+* **Advanced JS:** Prototypes, classes, inheritance, event loop, async JS (callbacks, promises, async/await)
+* **Memory Management & Scope:** Closures, garbage collection
+* **Software Design Principles:** SOLID, DRY, KISS, modularity
+* **Advanced DSA:** Linked lists, trees, hash tables, recursion patterns, greedy algorithms, dynamic programming
+* **Testing:** Unit testing with Jest, basic TDD practices
+* **Mini-Project:** Algorithm-heavy exercises, e.g., data structure manipulation tools
 
 ---
 
-## 2. Product Engineering Foundation (Week 2–4)
-**Objective:** Build production-grade MVPs fast.
+## **Module 5–6: Frontend Development with ReactJS / NextJS**
 
-### Modules
-- Software architecture for early-stage systems.  
-- Backend: Django, FastAPI, API design, modular structure.  
-- Frontend: React.js, Next.js, component systems.  
-- Database modeling: relational schemas, indexing, migrations.  
-- DevOps basics: Git, CI, deployment pipelines.  
-- AI integration: embeddings, LLM workflows, automation hooks.
+**Goal:** Build interactive user interfaces.
 
-**Output:** Functional MVP shipped by end of Week 4.
+* **React Basics:** Components, props, state, lifecycle methods, hooks
+* **NextJS Fundamentals:** Pages, routing, API routes, server-side rendering basics
+* **State Management:** Context API, Redux (optional for scale)
+* **Forms & Validation:** Controlled/uncontrolled inputs, validation libraries
+* **UI/UX & Responsive Design:** CSS, Tailwind, accessibility practices
+* **Mini-Project:** Personal portfolio site with NextJS, responsive design, multiple pages
 
 ---
 
-## 3. User Research and Validation Engine (Week 5–6)
-- Identify real users and real pain.  
-- Rapid-feedback loops: prototype → user → revise.  
-- Measure activation, retention, willingness to pay.
+## **Module 7–8: Backend Development with NodeJS + Express**
 
-**Output:** Validated problem + validated solution direction.
+**Goal:** Build APIs and server-side logic.
 
----
-
-## 4. Product Incubation Sprint 1 — Build the Real Version (Week 7–10)
-- Full engineering sprint under hub constraints.  
-- Weekly shipping cycles.  
-- Standups focused on blockers only.  
-- Enforce clean architecture and modularity.  
-- UI/UX: frictionless workflow execution.
-
-**Output:** MVP v1.0 in production with real user activity.
+* **NodeJS Fundamentals:** Event loop, modules, file system
+* **Express Basics:** Routing, middleware, error handling
+* **Databases:** MongoDB (NoSQL), PostgreSQL (SQL), CRUD operations
+* **Authentication & Authorization:** JWT, sessions, OAuth basics
+* **Mini-Project:** REST API for a simple task manager or blog application
 
 ---
 
-## 5. Customer Acquisition Pipeline (Week 11–13)
-- Integrate demand channels directly into product.  
-- Automated onboarding, referral loops, email flows.  
-- Cold outreach engineering for B2B.  
-- Content systems for B2C.  
-- A/B testing and instrumentation.
+## **Module 9: Full-Stack Integration**
 
-**Output:** First 100–500 users.
+**Goal:** Connect frontend and backend seamlessly.
 
----
-
-## 6. Product Incubation Sprint 2 — Traction and Monetization (Week 14–18)
-- Convert usage → revenue.  
-- Payment and billing integration.  
-- Pricing experiments.  
-- Retention loop engineering.  
-- Metrics dashboards.
-
-**Output:** Real revenue.
+* **API Consumption:** Fetch, Axios in React/NextJS
+* **End-to-End CRUD Applications:** Full-stack user registration, product listing, or note-taking app
+* **Error Handling & Logging:** Global error handling, console logging, user feedback
+* **Mini-Project:** Full-stack note-taking or todo application with React frontend + NodeJS backend + MongoDB
 
 ---
 
-## 7. Scaling Systems for Early-Stage Tech (Week 19–22)
-- Infrastructure scaling patterns.  
-- Codebase hardening.  
-- Automate operations.  
-- Customer success frameworks.  
-- Revenue engine optimization.
+## **Module 10: Deployment & DevOps Basics**
 
-**Output:** Product stable under growth load.
+**Goal:** Deploy applications and manage production environments.
 
----
-
-## 8. Founder Systems Training (Week 23–26)
-- Execution frameworks and deep-work structure.  
-- Team design and operational roles.  
-- Documentation discipline.  
-- Legal, compliance, IP, data protection.
-
-**Output:** Company-ready operational system.
+* **Containerization:** Docker basics, container setup
+* **Hosting & Deployment:** Vercel, Railway, Render, Heroku
+* **CI/CD Pipelines:** GitHub Actions, automated deployment
+* **Environment Management:** Environment variables, secrets
+* **Mini-Project:** Deploy previous full-stack projects live
 
 ---
 
-## 9. Investment, Partnerships, and Growth Expansion (Week 27–30)
-- Investor-grade pitch, traction story, financial model.  
-- Partnership and distribution leverage.  
-- Negotiation fundamentals.  
-- Expansion strategy: markets, segments, adjacent products.
+## **Module 11–12: Capstone Projects (Domain-Specific)**
 
-**Output:** Investor-ready startup with measurable traction.
+**Goal:** Build production-ready, deployable JS applications in key domains.
+
+**1. Fintech Project:**
+
+* BNPL platform, payment gateway, or expense tracker
+* Features: Authentication, transaction management, analytics
+
+**2. Agritech Project:**
+
+* Farm management system or marketplace for agro-products
+* Features: Inventory, product catalog, orders, notifications
+
+**3. Healthtech Project:**
+
+* Telemedicine appointment app or health record dashboard
+* Features: Roles (patient/doctor), CRUD, real-time updates
+
+**4. Proptech Project:**
+
+* Property listing platform or tenant management system
+* Features: Search, filters, payments, bookings
+
+**5. Software Engineering Tooling Project:**
+
+* Project management tool or developer portfolio dashboard
+* Features: Kanban board, task tracking, API integrations
+
+**Capstone Execution Plan:**
+
+* **Weeks 1–4 (Month 11):** Build modules (auth, database, APIs)
+* **Weeks 5–8 (Month 12):** Integrate frontend-backend, implement advanced features (payments, analytics, real-time updates)
+* **Final Deliverable:** Deployed, production-ready project + technical documentation + GitHub portfolio
 
 ---
 
-## 10. Graduation Requirements
-Graduates leave with:
+**Key Outcomes by Module 12:**
 
-1. Launched product with active users.  
-2. Working acquisition engine.  
-3. Revenue-producing model.  
-4. Investor-ready pitch deck.  
-5. Documented technical architecture.  
-6. Team operating under incubation systems.
+* Expert-level JavaScript full-stack development (NodeJS + ReactJS/NextJS)
+* Strong algorithmic and problem-solving skills
+* Ability to design, build, and deploy production-grade applications
+* Portfolio of domain-specific projects in Fintech, Agritech, Healthtech, Proptech, and software tooling
 
 ---
-
-## Essence of the Hub
-A **product factory** engineered to produce founders capable of building, deploying, scaling, and monetizing products with predictable patterns that compound into millions.
